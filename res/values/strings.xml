@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">btjoypad</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="title_connected">connected to server</string>
+    <string name="title_not_connected">not connected to server</string>
+    <string name="title_connecting">connecting...</string>
+    <string name="server_name">btjoypad server</string>
+    <string name="app_name_client">btjoypad client</string>
+    <!-- Symbols that are commonly considered word separators in this language -->
+    <string name="word_separators">\u0020.,;:!?\n()[]*&amp;@{}/&lt;&gt;_+=|&quot;</string>
+
+    <!-- Labels on keys -->
+    <string name="label_go_key">Go</string>
+    <string name="label_next_key">Next</string>
+    <string name="label_send_key">Send</string>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <Preference
+        android:key="turnOn"
+        android:summary="Turn on bluetooth"
+        android:title="Enable bluetooth" />
+
+    <Preference
+        android:key="enableBTJoypad"
+        android:summary="Allow BTJoypad as a keyboard"
+        android:title="Authorise BTJoypad" />
+
+    <Preference
+        android:key="makeDiscoverable"
+        android:summary="Allows clients to connect"
+        android:title="Make discoverable" />
+
+    <Preference
+        android:key="selectIME"
+        android:summary="Select BTJoypad keyboard"
+        android:title="Activate Keyboard" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="startAtBoot"
+        android:summary="Launch server at boot?"
+        android:title="Start at boot" >
+    </CheckBoxPreference>
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="showIMEOnClose"
+        android:summary="Prompt to disable server on client disconnect?"
+        android:title="Stop Server on disconnect" >
+    </CheckBoxPreference>
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="promptBluetooth"
+        android:summary="If bluetooth is not enabled, display a prompt to enable it."
+        android:title="Prompt to enable bluetooth?" >
+    </CheckBoxPreference>
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="useOrientationSensor"
+        android:summary="When enabled this affects your battery usage"
+        android:title="Enable orientation buttons" >
+    </CheckBoxPreference>
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="useMappings"
+        android:title="Enable mappings?" >
+    </CheckBoxPreference>
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/configuration_human_value"
+        android:entryValues="@array/configuration_value"
+        android:key="configuration"
+        android:title="Choose a configuration to change" >
+    </ListPreference>
+
+    <PreferenceCategory
+        android:key="autofires"
+        android:title="Autofires" >
+    </PreferenceCategory>
+
+    <Preference
+        android:key="addAutofire"
+        android:summary="Selects a button for autofire"
+        android:title="Enable new autofire button" />
+
+    <PreferenceCategory
+        android:key="mappings"
+        android:title="Mappings" >
+    </PreferenceCategory>
+
+    <Preference
+        android:key="button"
+        android:summary="Adds a new mapping"
+        android:title="Add mapping" />
+
+</PreferenceScreen>

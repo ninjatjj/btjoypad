@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BTJoypad" >
+
+    <item
+        android:id="@+id/startClient"
+        android:title="Start Client"/>
+    
+    <item
+        android:id="@+id/startServer"
+        android:title="Start Server"/>
+
+    <item
+        android:id="@+id/stopServer"
+        android:title="Stop Server"/>
+
+    <item
+        android:id="@+id/mappingPrefs"
+        android:title="Settings"/>
+
+    <item
+        android:id="@+id/exit"
+        android:title="Exit"/>
+
+</menu>

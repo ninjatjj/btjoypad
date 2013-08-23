@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="configuration_human_value">
+        <item>Configuration 1</item>
+        <item>Configuration 2</item>
+        <item>Configuration 3</item>
+    </string-array>
+
+    <string-array name="configuration_value">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="keyCodes">
+        <item name="ANALOG_LEFT_UP">ANALOG_LEFT_UP</item>
+        <item name="ANALOG_LEFT_DOWN">ANALOG_LEFT_DOWN</item>
+        <item name="ANALOG_LEFT_LEFT">ANALOG_LEFT_LEFT</item>
+        <item name="ANALOG_LEFT_RIGHT">ANALOG_LEFT_RIGHT</item>
+        <item name="ANALOG_RIGHT_UP">ANALOG_RIGHT_UP</item>
+        <item name="ANALOG_RIGHT_DOWN">ANALOG_RIGHT_DOWN</item>
+        <item name="ANALOG_RIGHT_LEFT">ANALOG_RIGHT_LEFT</item>
+        <item name="ANALOG_RIGHT_RIGHT">ANALOG_RIGHT_RIGHT</item>
+        <item name="ANALOG_MID">ANALOG_MID</item>
+        
+        <item name="KEYCODE_BACK">KEYCODE_BACK</item>
+        <item name="KEYCODE_BUTTON_1">KEYCODE_BUTTON_1</item>
+        <item name="KEYCODE_BUTTON_10">KEYCODE_BUTTON_10</item>
+        <item name="KEYCODE_BUTTON_11">KEYCODE_BUTTON_11</item>
+        <item name="KEYCODE_BUTTON_12">KEYCODE_BUTTON_12</item>
+        <item name="KEYCODE_BUTTON_13">KEYCODE_BUTTON_13</item>
+        <item name="KEYCODE_BUTTON_14">KEYCODE_BUTTON_14</item>
+        <item name="KEYCODE_BUTTON_15">KEYCODE_BUTTON_15</item>
+        <item name="KEYCODE_BUTTON_16">KEYCODE_BUTTON_16</item>
+        <item name="KEYCODE_BUTTON_2">KEYCODE_BUTTON_2</item>
+        <item name="KEYCODE_BUTTON_3">KEYCODE_BUTTON_3</item>
+        <item name="KEYCODE_BUTTON_4">KEYCODE_BUTTON_4</item>
+        <item name="KEYCODE_BUTTON_5">KEYCODE_BUTTON_5</item>
+        <item name="KEYCODE_BUTTON_6">KEYCODE_BUTTON_6</item>
+        <item name="KEYCODE_BUTTON_7">KEYCODE_BUTTON_7</item>
+        <item name="KEYCODE_BUTTON_8">KEYCODE_BUTTON_8</item>
+        <item name="KEYCODE_BUTTON_9">KEYCODE_BUTTON_9</item>
+        <item name="KEYCODE_BUTTON_A">KEYCODE_BUTTON_A</item>
+        <item name="KEYCODE_BUTTON_B">KEYCODE_BUTTON_B</item>
+        <item name="KEYCODE_BUTTON_C">KEYCODE_BUTTON_C</item>
+        <item name="KEYCODE_BUTTON_L1">KEYCODE_BUTTON_L1</item>
+        <item name="KEYCODE_BUTTON_L2">KEYCODE_BUTTON_L2</item>
+        <item name="KEYCODE_BUTTON_MODE">KEYCODE_BUTTON_MODE</item>
+        <item name="KEYCODE_BUTTON_R1">KEYCODE_BUTTON_R1</item>
+        <item name="KEYCODE_BUTTON_R2">KEYCODE_BUTTON_R2</item>
+        <item name="KEYCODE_BUTTON_SELECT">KEYCODE_BUTTON_SELECT</item>
+        <item name="KEYCODE_BUTTON_START">KEYCODE_BUTTON_START</item>
+        <item name="KEYCODE_BUTTON_THUMBL">KEYCODE_BUTTON_THUMBL</item>
+        <item name="KEYCODE_BUTTON_THUMBR">KEYCODE_BUTTON_THUMBR</item>
+        <item name="KEYCODE_BUTTON_X">KEYCODE_BUTTON_X</item>
+        <item name="KEYCODE_BUTTON_Y">KEYCODE_BUTTON_Y</item>
+        <item name="KEYCODE_BUTTON_Z">KEYCODE_BUTTON_Z</item>
+        <item name="KEYCODE_CAMERA">KEYCODE_CAMERA</item>
+        <item name="KEYCODE_DPAD_CENTER">KEYCODE_DPAD_CENTER</item>
+        <item name="KEYCODE_DPAD_DOWN">KEYCODE_DPAD_DOWN</item>
+        <item name="KEYCODE_DPAD_LEFT">KEYCODE_DPAD_LEFT</item>
+        <item name="KEYCODE_DPAD_RIGHT">KEYCODE_DPAD_RIGHT</item>
+        <item name="KEYCODE_DPAD_UP">KEYCODE_DPAD_UP</item>
+        <item name="KEYCODE_MENU">KEYCODE_MENU</item>
+        <item name="KEYCODE_SPACE">KEYCODE_SPACE</item>
+        <item name="KEYCODE_SEARCH">KEYCODE_SEARCH</item>
+        <item name="KEYCODE_A">KEYCODE_A</item>
+        <item name="KEYCODE_B">KEYCODE_B</item>
+        <item name="KEYCODE_C">KEYCODE_C</item>
+        <item name="KEYCODE_D">KEYCODE_D</item>
+        <item name="KEYCODE_E">KEYCODE_E</item>
+        <item name="KEYCODE_F">KEYCODE_F</item>
+        <item name="KEYCODE_G">KEYCODE_G</item>
+        <item name="KEYCODE_H">KEYCODE_H</item>
+        <item name="KEYCODE_I">KEYCODE_I</item>
+        <item name="KEYCODE_J">KEYCODE_J</item>
+        <item name="KEYCODE_K">KEYCODE_K</item>
+        <item name="KEYCODE_L">KEYCODE_L</item>
+        <item name="KEYCODE_M">KEYCODE_M</item>
+        <item name="KEYCODE_N">KEYCODE_P</item>
+        <item name="KEYCODE_O">KEYCODE_O</item>
+        <item name="KEYCODE_P">KEYCODE_P</item>
+        <item name="KEYCODE_Q">KEYCODE_Q</item>
+        <item name="KEYCODE_R">KEYCODE_R</item>
+        <item name="KEYCODE_S">KEYCODE_S</item>
+        <item name="KEYCODE_T">KEYCODE_T</item>
+        <item name="KEYCODE_U">KEYCODE_U</item>
+        <item name="KEYCODE_V">KEYCODE_V</item>
+        <item name="KEYCODE_W">KEYCODE_W</item>
+        <item name="KEYCODE_X">KEYCODE_X</item>
+        <item name="KEYCODE_Y">KEYCODE_Y</item>
+        <item name="KEYCODE_Z">KEYCODE_Z</item>
+        <item name="KEYCODE_1">KEYCODE_1</item>
+        <item name="KEYCODE_2">KEYCODE_2</item>
+        <item name="KEYCODE_3">KEYCODE_3</item>
+        <item name="KEYCODE_4">KEYCODE_4</item>
+        <item name="KEYCODE_5">KEYCODE_5</item>
+        <item name="KEYCODE_6">KEYCODE_6</item>
+        <item name="KEYCODE_7">KEYCODE_7</item>
+        <item name="KEYCODE_8">KEYCODE_8</item>
+        <item name="KEYCODE_9">KEYCODE_9</item>
+        <item name="KEYCODE_0">KEYCODE_0</item>
+        <item name="KEYCODE_SHIFT_LEFT">KEYCODE_SHIFT_LEFT</item>
+        <item name="KEYCODE_ENTER">KEYCODE_ENTER</item>
+        <item name="KEYCODE_COMMA">KEYCODE_COMMA</item>
+        <item name="KEYCODE_PERIOD">KEYCODE_PERIOD</item>
+        <item name="KEYCODE_TAB">KEYCODE_TAB</item>
+        <item name="KEYCODE_SLASH">KEYCODE_SLASH</item>
+        <item name="KEYCODE_APOSTROPHE">KEYCODE_APOSTROPHE</item>
+        <item name="KEYCODE_DEL">KEYCODE_DEL</item>
+        <item name="KEYCODE_SPACE">KEYCODE_SPACE</item>
+    </string-array>
+
+</resources>

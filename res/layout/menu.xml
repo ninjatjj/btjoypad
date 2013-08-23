@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BTJoypadClient" >
+
+    <item
+        android:id="@+id/connect"
+        android:title="Connect"/>
+
+    <item
+        android:id="@+id/disconnect"
+        android:title="Forget server"/>
+
+    <item
+        android:id="@+id/serverSettings"
+        android:title="Remote mappings"
+        android:enabled="false"/>
+
+    <item
+        android:id="@+id/exit"
+        android:title="Exit"/>
+
+</menu>

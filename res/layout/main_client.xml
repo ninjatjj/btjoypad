@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+     <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connecting the client"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To connect to the server, select the menu button and choose connect. You will see a device picker to choose the device to connect to. After you are connected the top right corner will indicate this and you should be able to control the server using your hardware keys. When you have finished you can either &quot;Disconnect&quot; to forget the server or just &quot;Exit&quot; to finish the session." />
+
+     <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Can't connect?"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="With my Galaxy Note 2 10.1 as the server, I sometimes can't connect from my Xperia Play client until I toggle bluetooth on and off (on the Note)." />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Setting up keyboard mappings and autofire"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Configuration is available in Menu -> Settings to map different buttons to the ones the client sends. For example, for KoF I had to map DPAD_CENTER and CIRCLE to GAMEPAD_B and A." />
+
+ 
+</LinearLayout>

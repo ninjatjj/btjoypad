@@ -1,0 +1,81 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ninjatjj.btjoypad"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="10"
+        tools:ignore="OldTargetApi" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.ninjatjj.btjoypad.BTJoypad"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ninjatjj.btjoypad.BTJoypadClient"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name_client"
+            android:launchMode="singleInstance"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="touchpadndkjava" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.ninjatjj.btjoypad.server.BTJoypadServer"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.ninjatjj.btjoypad.server.BTJoypadServer" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.ninjatjj.btjoypad.server.BTJoypadKeyboard"
+            android:permission="android.permission.BIND_INPUT_METHOD" >
+            <intent-filter>
+                <action android:name="android.view.InputMethod" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.view.im"
+                android:resource="@xml/method" />
+        </service>
+        
+        <activity android:name="com.ninjatjj.btjoypad.server.BTJoypadPreferences" />
+
+        <receiver
+            android:name="com.ninjatjj.btjoypad.server.StartAtBoot"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>
