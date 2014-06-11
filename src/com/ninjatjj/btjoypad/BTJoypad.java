@@ -125,6 +125,14 @@ public class BTJoypad extends Activity implements StartedStatusListener {
 				im.showInputMethodPicker();
 			}
 		});
+		
+		Button startClient = (Button) this.findViewById(R.id.startClient);
+		startClient.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				startActivity(new Intent(BTJoypad.this, BTJoypadClient.class));
+			}
+		});
 
 		bindService(new Intent(this, BTJoypadServer.class), mConnection,
 				Context.BIND_AUTO_CREATE);

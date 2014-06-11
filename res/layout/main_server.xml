@@ -48,6 +48,13 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="To connect to a remote BTJoyoad, click Menu -> Start Client, then follow the instructions on that screen" />
+        android:text="To connect to a remote BTJoyoad, Start Client, then follow the instructions on that screen" />
+    
+        <Button
+        android:id="@+id/startClient"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Start Client" />
 
 </LinearLayout>
